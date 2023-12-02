@@ -1,5 +1,9 @@
 # Azure SDK for Java: How to create an Azure ResourceGroup
 
+**IMPORTANT NOTE**: for more information about this example please visit these URLs:
+
+https://github.com/Azure/azure-sdk-for-java/tree/main
+
 https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/resourcemanager/docs/SAMPLE.md
 
 ## 1. Prerequisites
