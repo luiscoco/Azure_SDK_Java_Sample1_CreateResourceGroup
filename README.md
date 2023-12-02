@@ -142,3 +142,33 @@ Edit the **pom.xml** file and add the following code:
     </build>
 </project>
 ```
+
+**IMPORTANT Do not forget to Navigate to the new project directory**, and then compile it with the command:
+
+```
+mvn clean install
+```
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/1ede466f-8645-4025-88ab-d97b6542eb46)
+
+To run the application execute the command:
+
+```
+mvn exec:java 
+```
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/9252e35b-a276-484d-8784-f4297bcad50b)
+
+## 3. Input the application source code for Azure Authentication and for creating the new Azure ResourceGroup
+
+In the **main.java** file include this code
+
+```
+
+```
+
+## 4. Load the Azure SDK for Java libraries/dependencies
+
+Naviga
+
+Open the 
