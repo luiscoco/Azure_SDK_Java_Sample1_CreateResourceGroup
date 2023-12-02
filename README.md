@@ -165,7 +165,7 @@ For more advance examples navigate to the URL: https://github.com/Azure-Samples/
 
 In the **main.java** file include this code:
 
-```
+```java
 package com.example;
 
 import com.azure.core.credential.TokenCredential;
