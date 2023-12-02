@@ -207,7 +207,13 @@ public class Main {
 
 ## 4. Load the Azure SDK for Java dependencies/libraries
 
-Edit the pom.xml file and add the Azure SDK dependencies/libraries 
+For more info about the dependencies see:
+
+**Azure Identity**: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/identity/azure-identity
+
+**Azure ResourceManager**: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/resourcemanager
+
+Edit the **pom.xml** file and add the Azure SDK dependencies/libraries 
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -276,3 +282,22 @@ Edit the pom.xml file and add the Azure SDK dependencies/libraries
 
 </project>
 ```
+
+## 5. Build and run the application
+
+Open the **main.java** file in VSCode and then compile the application with the command:
+
+```
+mvn clean install
+```
+
+and then run the application with the command:
+
+```
+mvn exec:java 
+```
+
+## 6. Open Azure portal and see the new ResourceGroup
+
+![image](https://github.com/luiscoco/Azure_SDK_Java_Sample1_CreateResourceGroup/assets/32194879/49f04caa-bd84-40b3-b64d-ddf172a4b44b)
+
